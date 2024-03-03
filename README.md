@@ -1,5 +1,7 @@
 # Getting Started with Insurance by IvyWang
 
+<img width="350" alt="Project_screenshot" src="https://raw.githubusercontent.com/ccwang116/insurance-by-ivywang/main/public/insurance_screenshot.png">
+
 ## Available Scripts
 
 In the project directory, you can run:
