@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "4fa91b3f-7e92-4e07-9832-191f5e5777ce",
+		"name": "Introducer mock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11148878"
+	},
+	"item": [
+		{
+			"name": "/api/policyholders",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}//api/policyholders",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"",
+						"api",
+						"policyholders"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/api/policyholders?code=0000000001",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"",
+								"api",
+								"policyholders"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "0000000001"
+								}
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"code\": \"0000000001\",\n    \"name\": \"Anibal\",\n    \"registration_date\": \"2024-02-29T09:34:00.138Z\",\n    \"introducer_code\": \"0000000009\",\n    \"l\": [\n  {\n    \"code\": \"0000000009\",\n    \"name\": \"Raleigh\",\n    \"registration_date\": \"2024-02-29T16:51:57.389Z\",\n    \"introducer_code\": \"0000000001\"\n  },\n  {\n    \"code\": \"0000000002\",\n    \"name\": \"John\",\n    \"registration_date\": \"2023-10-15T10:12:34.567Z\",\n    \"introducer_code\": \"0000000001\"\n  },\n  {\n    \"code\": \"0000000003\",\n    \"name\": \"Emily\",\n    \"registration_date\": \"2022-06-01T08:30:00.000Z\",\n    \"introducer_code\": \"0000000032\"\n  },\n  {\n    \"code\": \"0000000004\",\n    \"name\": \"Michael\",\n    \"registration_date\": \"2021-04-05T14:20:00.000Z\",\n    \"introducer_code\": \"0000000001\"\n  },\n  {\n    \"code\": \"0000000005\",\n    \"name\": \"Sophia\",\n    \"registration_date\": \"2020-12-25T09:45:12.345Z\",\n    \"introducer_code\": \"0000000021\"\n  },\n  {\n    \"code\": \"0000000006\",\n    \"name\": \"Oliver\",\n    \"registration_date\": \"2019-11-11T17:30:30.000Z\",\n    \"introducer_code\": \"0000000018\"\n  },\n  {\n    \"code\": \"0000000007\",\n    \"name\": \"Ava\",\n    \"registration_date\": \"2018-08-08T12:00:00.000Z\",\n    \"introducer_code\": \"0000000023\"\n  },\n  {\n    \"code\": \"0000000008\",\n    \"name\": \"William\",\n    \"registration_date\": \"2017-07-01T18:15:45.678Z\",\n    \"introducer_code\": \"0000000002\"\n  },\n  {\n    \"code\": \"0000000009\",\n    \"name\": \"Mia\",\n    \"registration_date\": \"2016-03-20T13:05:10.000Z\",\n    \"introducer_code\": \"0000000007\"\n  },\n  {\n    \"code\": \"0000000010\",\n    \"name\": \"James\",\n    \"registration_date\": \"2015-01-01T00:00:00.000Z\",\n    \"introducer_code\": \"0000000004\"\n  }\n],\n    \"r\":  [\n    {\n        \"code\": \"1000000001\",\n        \"name\": \"Ted\",\n        \"registration_date\": \"2024-02-29T16:51:57.389Z\",\n        \"introducer_code\": \"0000000001\"\n    },\n    {\n        \"code\": \"1000000002\",\n        \"name\": \"Alice\",\n        \"registration_date\": \"2023-10-15T10:22:30.456Z\",\n        \"introducer_code\": \"0000000002\"\n    },\n    {\n        \"code\": \"1000000003\",\n        \"name\": \"Bob\",\n        \"registration_date\": \"2022-07-05T09:15:10.123Z\",\n        \"introducer_code\": \"0000000003\"\n    },\n    {\n        \"code\": \"1000000004\",\n        \"name\": \"Carol\",\n        \"registration_date\": \"2021-04-18T14:33:45.789Z\",\n        \"introducer_code\": \"0000000004\"\n    },\n    {\n        \"code\": \"1000000005\",\n        \"name\": \"Dave\",\n        \"registration_date\": \"2020-12-01T18:55:12.987Z\",\n        \"introducer_code\": \"0000000005\"\n    },\n    {\n        \"code\": \"1000000006\",\n        \"name\": \"Eve\",\n        \"registration_date\": \"2019-09-20T21:47:29.654Z\",\n        \"introducer_code\": \"0000000006\"\n    },\n    {\n        \"code\": \"1000000007\",\n        \"name\": \"Frank\",\n        \"registration_date\": \"2018-06-12T23:09:54.321Z\",\n        \"introducer_code\": \"0000000007\"\n    },\n    {\n        \"code\": \"1000000008\",\n        \"name\": \"Grace\",\n        \"registration_date\": \"2017-03-27T07:42:18.890Z\",\n        \"introducer_code\": \"0000000008\"\n    },\n    {\n        \"code\": \"1000000009\",\n        \"name\": \"Harry\",\n        \"registration_date\": \"2016-11-08T02:04:35.459Z\",\n        \"introducer_code\": \"0000000009\"\n    },\n    {\n        \"code\": \"1000000010\",\n        \"name\": \"Ivy\",\n        \"registration_date\": \"2015-08-23T05:26:59.028Z\",\n        \"introducer_code\": \"0000000010\"\n    }\n]\n}"
+				},
+				{
+					"name": "code=0000000002",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/api/policyholders?code=0000000002",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"",
+								"api",
+								"policyholders"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "0000000002"
+								}
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"code\": \"0000000002\",\n    \"name\": \"John\",\n    \"registration_date\": \"2024-02-29T09:34:00.138Z\",\n    \"introducer_code\": \"0000000009\",\n    \"l\": [\n  {\n    \"code\": \"0000000009\",\n    \"name\": \"Raleigh\",\n    \"registration_date\": \"2024-02-29T16:51:57.389Z\",\n    \"introducer_code\": \"0000000001\"\n  },\n  {\n    \"code\": \"0000000002\",\n    \"name\": \"John\",\n    \"registration_date\": \"2023-10-15T10:12:34.567Z\",\n    \"introducer_code\": \"0000000001\"\n  },\n  {\n    \"code\": \"0000000003\",\n    \"name\": \"Emily\",\n    \"registration_date\": \"2022-06-01T08:30:00.000Z\",\n    \"introducer_code\": \"0000000032\"\n  },\n  {\n    \"code\": \"0000000004\",\n    \"name\": \"Michael\",\n    \"registration_date\": \"2021-04-05T14:20:00.000Z\",\n    \"introducer_code\": \"0000000001\"\n  },\n  {\n    \"code\": \"0000000005\",\n    \"name\": \"Sophia\",\n    \"registration_date\": \"2020-12-25T09:45:12.345Z\",\n    \"introducer_code\": \"0000000021\"\n  },\n  {\n    \"code\": \"0000000006\",\n    \"name\": \"Oliver\",\n    \"registration_date\": \"2019-11-11T17:30:30.000Z\",\n    \"introducer_code\": \"0000000018\"\n  },\n  {\n    \"code\": \"0000000007\",\n    \"name\": \"Ava\",\n    \"registration_date\": \"2018-08-08T12:00:00.000Z\",\n    \"introducer_code\": \"0000000023\"\n  },\n  {\n    \"code\": \"0000000008\",\n    \"name\": \"William\",\n    \"registration_date\": \"2017-07-01T18:15:45.678Z\",\n    \"introducer_code\": \"0000000002\"\n  },\n  {\n    \"code\": \"0000000009\",\n    \"name\": \"Mia\",\n    \"registration_date\": \"2016-03-20T13:05:10.000Z\",\n    \"introducer_code\": \"0000000007\"\n  },\n  {\n    \"code\": \"0000000010\",\n    \"name\": \"James\",\n    \"registration_date\": \"2015-01-01T00:00:00.000Z\",\n    \"introducer_code\": \"0000000004\"\n  }\n],\n    \"r\":  [\n    {\n        \"code\": \"1000000001\",\n        \"name\": \"Ted\",\n        \"registration_date\": \"2024-02-29T16:51:57.389Z\",\n        \"introducer_code\": \"0000000001\"\n    },\n    {\n        \"code\": \"1000000002\",\n        \"name\": \"Alice\",\n        \"registration_date\": \"2023-10-15T10:22:30.456Z\",\n        \"introducer_code\": \"0000000002\"\n    },\n    {\n        \"code\": \"1000000003\",\n        \"name\": \"Bob\",\n        \"registration_date\": \"2022-07-05T09:15:10.123Z\",\n        \"introducer_code\": \"0000000003\"\n    },\n    {\n        \"code\": \"1000000004\",\n        \"name\": \"Carol\",\n        \"registration_date\": \"2021-04-18T14:33:45.789Z\",\n        \"introducer_code\": \"0000000004\"\n    },\n    {\n        \"code\": \"1000000005\",\n        \"name\": \"Dave\",\n        \"registration_date\": \"2020-12-01T18:55:12.987Z\",\n        \"introducer_code\": \"0000000005\"\n    },\n    {\n        \"code\": \"1000000006\",\n        \"name\": \"Eve\",\n        \"registration_date\": \"2019-09-20T21:47:29.654Z\",\n        \"introducer_code\": \"0000000006\"\n    },\n    {\n        \"code\": \"1000000007\",\n        \"name\": \"Frank\",\n        \"registration_date\": \"2018-06-12T23:09:54.321Z\",\n        \"introducer_code\": \"0000000007\"\n    },\n    {\n        \"code\": \"1000000008\",\n        \"name\": \"Grace\",\n        \"registration_date\": \"2017-03-27T07:42:18.890Z\",\n        \"introducer_code\": \"0000000008\"\n    },\n    {\n        \"code\": \"1000000009\",\n        \"name\": \"Harry\",\n        \"registration_date\": \"2016-11-08T02:04:35.459Z\",\n        \"introducer_code\": \"0000000009\"\n    },\n    {\n        \"code\": \"1000000010\",\n        \"name\": \"Ivy\",\n        \"registration_date\": \"2015-08-23T05:26:59.028Z\",\n        \"introducer_code\": \"0000000010\"\n    }\n]\n}"
+				}
+			]
+		},
+		{
+			"name": "/api/policyholders/{code}/top",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}//api/policyholders/0001/top",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"",
+						"api",
+						"policyholders",
+						"0001",
+						"top"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}//api/policyholders/0001/top",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"",
+								"api",
+								"policyholders",
+								"0001",
+								"top"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"code\": \"0000000024\",\n    \"name\": \"Robin\",\n    \"registration_date\": \"2024-02-29T09:34:00.138Z\",\n    \"introducer_code\": \"0000000009\",\n    \"l\": [\n  {\n    \"code\": \"0000000001\",\n    \"name\": \"Raleigh\",\n    \"registration_date\": \"2024-02-29T16:51:57.389Z\",\n    \"introducer_code\": \"0000000010\"\n  },\n  {\n    \"code\": \"0000000002\",\n    \"name\": \"John\",\n    \"registration_date\": \"2023-10-15T10:12:34.567Z\",\n    \"introducer_code\": \"0000000005\"\n  },\n  {\n    \"code\": \"0000000003\",\n    \"name\": \"Emily\",\n    \"registration_date\": \"2022-06-01T08:30:00.000Z\",\n    \"introducer_code\": \"0000000032\"\n  },\n  {\n    \"code\": \"0000000004\",\n    \"name\": \"Michael\",\n    \"registration_date\": \"2021-04-05T14:20:00.000Z\",\n    \"introducer_code\": \"0000000009\"\n  },\n  {\n    \"code\": \"0000000005\",\n    \"name\": \"Sophia\",\n    \"registration_date\": \"2020-12-25T09:45:12.345Z\",\n    \"introducer_code\": \"0000000021\"\n  },\n  {\n    \"code\": \"0000000006\",\n    \"name\": \"Oliver\",\n    \"registration_date\": \"2019-11-11T17:30:30.000Z\",\n    \"introducer_code\": \"0000000018\"\n  },\n  {\n    \"code\": \"0000000007\",\n    \"name\": \"Ava\",\n    \"registration_date\": \"2018-08-08T12:00:00.000Z\",\n    \"introducer_code\": \"0000000023\"\n  },\n  {\n    \"code\": \"0000000008\",\n    \"name\": \"William\",\n    \"registration_date\": \"2017-07-01T18:15:45.678Z\",\n    \"introducer_code\": \"0000000002\"\n  },\n  {\n    \"code\": \"0000000009\",\n    \"name\": \"Mia\",\n    \"registration_date\": \"2016-03-20T13:05:10.000Z\",\n    \"introducer_code\": \"0000000007\"\n  },\n  {\n    \"code\": \"0000000010\",\n    \"name\": \"James\",\n    \"registration_date\": \"2015-01-01T00:00:00.000Z\",\n    \"introducer_code\": \"0000000004\"\n  }\n],\n    \"r\": [\n  {\n    \"code\": \"0000000001\",\n    \"name\": \"Raleigh\",\n    \"registration_date\": \"2024-02-29T16:51:57.389Z\",\n    \"introducer_code\": \"0000000010\"\n  },\n  {\n    \"code\": \"0000000002\",\n    \"name\": \"John\",\n    \"registration_date\": \"2023-10-15T10:12:34.567Z\",\n    \"introducer_code\": \"0000000005\"\n  },\n  {\n    \"code\": \"0000000003\",\n    \"name\": \"Emily\",\n    \"registration_date\": \"2022-06-01T08:30:00.000Z\",\n    \"introducer_code\": \"0000000032\"\n  },\n  {\n    \"code\": \"0000000004\",\n    \"name\": \"Michael\",\n    \"registration_date\": \"2021-04-05T14:20:00.000Z\",\n    \"introducer_code\": \"0000000009\"\n  },\n  {\n    \"code\": \"0000000005\",\n    \"name\": \"Sophia\",\n    \"registration_date\": \"2020-12-25T09:45:12.345Z\",\n    \"introducer_code\": \"0000000021\"\n  },\n  {\n    \"code\": \"0000000006\",\n    \"name\": \"Oliver\",\n    \"registration_date\": \"2019-11-11T17:30:30.000Z\",\n    \"introducer_code\": \"0000000018\"\n  },\n  {\n    \"code\": \"0000000007\",\n    \"name\": \"Ava\",\n    \"registration_date\": \"2018-08-08T12:00:00.000Z\",\n    \"introducer_code\": \"0000000023\"\n  },\n  {\n    \"code\": \"0000000008\",\n    \"name\": \"William\",\n    \"registration_date\": \"2017-07-01T18:15:45.678Z\",\n    \"introducer_code\": \"0000000002\"\n  },\n  {\n    \"code\": \"0000000009\",\n    \"name\": \"Mia\",\n    \"registration_date\": \"2016-03-20T13:05:10.000Z\",\n    \"introducer_code\": \"0000000007\"\n  },\n  {\n    \"code\": \"0000000010\",\n    \"name\": \"James\",\n    \"registration_date\": \"2015-01-01T00:00:00.000Z\",\n    \"introducer_code\": \"0000000004\"\n  }\n]\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://7a52256a-b572-4393-b057-805a34fd82d7.mock.pstmn.io"
+		}
+	]
+}

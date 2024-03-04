@@ -19,6 +19,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Launches the test runner in the interactive watch mode.
 
+## Mock API
+
+1. Download postman collection in mock-api folder
+2. Create a Mock server in Postman and copy the Mock server URL
+3. Create a .env file and paste the Mock server URL to REACT_APP_API_DOMAIN=
+
 ### Contact
 
 If you have any questions, feel free to contact me.
