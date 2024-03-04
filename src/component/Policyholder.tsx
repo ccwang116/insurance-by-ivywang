@@ -52,13 +52,16 @@ const Policyholder = () => {
         <TextField
           id="outlined-basic"
           variant="outlined"
+          inputProps={{ "data-testid": "input-field" }}
           size="small"
+          value={keyword}
           onChange={(e) => setKeyword(e.target.value)}
         />
         <Button
           variant="contained"
           onClick={() => handleSearch(keyword)}
           disabled={!keyword}
+          data-testid="search-btn"
         >
           查詢
         </Button>
@@ -72,7 +75,7 @@ const Policyholder = () => {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <CircularProgress />
+          <CircularProgress data-testid="loading" />
         </Box>
       )}
       {!isLoading && !policyholdersResult && (
@@ -83,7 +86,7 @@ const Policyholder = () => {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <div>No data</div>
+          <div data-testid="no-data">No data</div>
         </Box>
       )}
       {!isLoading && policyholdersResult && (

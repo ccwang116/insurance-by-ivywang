@@ -12,7 +12,7 @@ export const CustomPaper = styled(Paper)(({ theme }) => ({
 }));
 interface IProps {
   info: PolicyholderData;
-  sx: SxProps;
+  sx?: SxProps;
   type: "main" | "direct" | "indirect";
   handleClick: () => void;
 }
