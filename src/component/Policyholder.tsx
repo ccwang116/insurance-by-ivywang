@@ -55,7 +55,11 @@ const Policyholder = () => {
           size="small"
           onChange={(e) => setKeyword(e.target.value)}
         />
-        <Button variant="contained" onClick={() => handleSearch(keyword)}>
+        <Button
+          variant="contained"
+          onClick={() => handleSearch(keyword)}
+          disabled={!keyword}
+        >
           查詢
         </Button>
       </Stack>
